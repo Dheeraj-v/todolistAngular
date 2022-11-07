@@ -1,0 +1,9 @@
+<div class="todolist-container">
+    <div>
+        <h1>To-Do List</h1>
+        <h3>A place to store your todos</h3>
+        <p *ngIf="allTaskCompleted">Congratulations you have no task to-do</p>
+        <app-todo-item [tasks]="todotasks" (completedEmitEvent)="handleCompleted($event)" (deletedEmitEvent)="handleDeleted($event)"></app-todo-item>
+        <app-todo-form (addedTask)="addTaskItem($event)"></app-todo-form>
+    </div>
+</div>

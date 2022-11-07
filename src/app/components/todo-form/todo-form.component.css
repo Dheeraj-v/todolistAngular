@@ -1,0 +1,11 @@
+.addBtn{
+    color: white;
+    background-color: #ff1493;
+    border-color: #ff1493;
+    width: 300px;
+    height: 28px;
+}
+.addinputbox{
+    height: 20px;
+    width: 300px;
+}

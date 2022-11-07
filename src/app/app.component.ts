@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Todotasks } from './models/todotasks';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'todalist';
+  todotasks:Todotasks[] = [{
+    taskName: 'discuss with teamates',
+    isCompleted: false
+  }];
 }

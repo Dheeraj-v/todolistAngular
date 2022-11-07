@@ -1,0 +1,20 @@
+.strikeThrough{
+    text-decoration: line-through;
+}
+.completeBtn{
+    color: #ff69b4;
+    border-color: #ff69b4;
+    background-color: white;
+    margin-right: 8px;
+
+}
+.deleteBtn{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    float: right;
+    margin-top: 4px;
+}
+.itemContainer{
+    width: 300px;
+}
